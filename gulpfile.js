@@ -1,21 +1,21 @@
-var watchify      = require('watchify');
-var browserify    = require('browserify');
-var gulp          = require('gulp');
-var source        = require('vinyl-source-stream');
-var buffer        = require('vinyl-buffer');
-var gutil         = require('gulp-util');
-var babelify      = require('babelify');
-var uglify        = require('gulp-uglify');
-var sourcemaps    = require('gulp-sourcemaps');
-var assign        = require('lodash.assign');
-var browserSync   = require('browser-sync');
-var sass          = require('gulp-sass');
-var autoprefixer  = require('gulp-autoprefixer');
-var react         = require('react');
-var gulpif        = require('gulp-if');
+const watchify      = require('watchify');
+const browserify    = require('browserify');
+const gulp          = require('gulp');
+const source        = require('vinyl-source-stream');
+const buffer        = require('vinyl-buffer');
+const gutil         = require('gulp-util');
+const babelify      = require('babelify');
+const uglify        = require('gulp-uglify');
+const sourcemaps    = require('gulp-sourcemaps');
+const assign        = require('lodash.assign');
+const browserSync   = require('browser-sync');
+const sass          = require('gulp-sass');
+const autoprefixer  = require('gulp-autoprefixer');
+const gulpif        = require('gulp-if');
+const del           = require('del');
 
 // setup node enviorment (development or production)
-var env = process.env.NODE_ENV;
+const env = process.env.NODE_ENV;
 
 // ////////////////////////////////////////////////
 // Javascript Browserify, Watchify, Babel, React
@@ -23,12 +23,12 @@ var env = process.env.NODE_ENV;
 // ////////////////////////////////////////////////
 
 // add custom browserify options here
-var customOpts = {
+const customOpts = {
   entries: ['./src/js/index.js'],
   debug: true,
 };
-var opts = assign({}, watchify.args, customOpts);
-var b = watchify(browserify(opts));
+const opts = assign({}, watchify.args, customOpts);
+const b = watchify(browserify(opts));
 
 // add transformations here
 b.transform('babelify', { presets: ['es2015', 'react'] });
@@ -108,6 +108,18 @@ gulp.task('styles', function () {
 });
 
 // ////////////////////////////////////////////////
+// Delete maps folder in production mode
+// ///////////////////////////////////////////////
+
+gulp.task('clean:maps', (env === 'production', deleteMapsFolder));
+
+function deleteMapsFolder() {
+  return del([
+    'public//maps/**',
+  ]);
+}
+
+// ////////////////////////////////////////////////
 // Watch Tasks
 // ////////////////////////////////////////////////
 
@@ -116,4 +128,4 @@ gulp.task('watch', function () {
   gulp.watch('src/scss/**/*.scss', ['styles']);
 });
 
-gulp.task('default', ['js', 'styles', 'browserSync', 'watch']);
+gulp.task('default', ['js', 'styles', 'browserSync', 'clean:maps', 'watch']);
