@@ -116,51 +116,51 @@ class StyleGuide extends Component {
             <h2>Forms</h2>
             <form method="">
 
-            <p><label for="text">Text</label><br />
+            <p><label htmlFor="text">Text</label><br />
             <input type="text" name="text1" /></p>
 
-            <p><label for="password">Password</label><br />
+            <p><label htmlFor="password">Password</label><br />
             <input type="password" name="password1" /></p>
 
-            <p><label for="date">Date</label><br />
+            <p><label htmlFor="date">Date</label><br />
             <input type="date" name="date1" pattern="\d{4}-\d{2}-\d{2}" placeholder="YYY-MM-DD" title="YYY-MM-DD" /></p>
 
-            <p><label for="color">Color</label><br />
+            <p><label htmlFor="color">Color</label><br />
             <input type="color" name="color1" defaultValue="#336699" /></p>
 
-            <p><label for="email">Email (multible coma seperate)</label><br />
+            <p><label htmlFor="email">Email (multible coma seperate)</label><br />
             <input type="email" name="email1" /></p>
 
-            <p><label for="range">Range (1-100 is steps of 10)</label><br />
+            <p><label htmlFor="range">Range (1-100 is steps of 10)</label><br />
             <input type="range" name="range1" min="0" max="100" step="10" defaultValue="20" /></p>
 
-            <p><label for="search">Search</label><br />
+            <p><label htmlFor="search">Search</label><br />
             <input type="search" name="date1" /></p>
 
-            <p><label for="url">URL</label><br />
+            <p><label htmlFor="url">URL</label><br />
             <input type="url" name="url1" /></p>
 
-            <p><label for="text-area">Text Area</label><br />
+            <p><label htmlFor="text-area">Text Area</label><br />
             <textarea name="textarea1" rows="8" cols="50"></textarea></p>
 
-            <p><label for="numbers">Number (1-5)</label><br />
+            <p><label htmlFor="numbers">Number (1-5)</label><br />
             <input type="number" name="number1" min="1" max="5" defaultValue="1" /></p>
 
-            <p><label for="check-box">Check boxes:</label><br />
+            <p><label htmlFor="check-box">Check boxes:</label><br />
             <input type="checkbox" name="check1" defaultChecked /><span>checkone</span><br />
             <input type="checkbox" name="check2" /><span>checkone</span><br />
             <input type="checkbox" name="check3" /><span>checkone</span><br />
             </p>
 
             <p>
-            <label for="radios">Radios</label><br />
+            <label htmlFor="radios">Radios</label><br />
             <input type="radio" name="radio1" defaultValue="one" defaultChecked="checked" /><label>check one</label><br />
             <input type="radio" name="radio1" defaultValue="two" /><label>check two</label><br />
             <input type="radio" name="radio1" defaultValue="three" /><label>check three</label><br />
             </p>
 
             <p>
-            <label for="select-list">Select List</label><br />
+            <label htmlFor="select-list">Select List</label><br />
             <select name="select1">
                 <option defaultValue="" disabled>-- Select an option --</option>
                 <optgroup label="Group 1">
@@ -177,7 +177,7 @@ class StyleGuide extends Component {
             </p>
 
             <p>
-            <label for="select-list-multiple">Select List (multiple)</label><br />
+            <label htmlFor="select-list-multiple">Select List (multiple)</label><br />
             <select name="select1" size="8" multiple>
             {/*<!--  width="100" style="width: 100px" (not html5) -->*/}
                 <optgroup label="Group 1">
