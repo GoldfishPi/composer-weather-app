@@ -1,4 +1,3 @@
-'use strict';
 import React, { Component } from 'react';
 import { SuperCellIcon } from './icons';
 import { Link } from 'react-router';

@@ -1,4 +1,3 @@
-'use strict';
 import React, { Component } from 'react';
 import packageJSON from '../../../package.json';
 import { SuperCellIcon, HappyFaceIcon } from './icons';
