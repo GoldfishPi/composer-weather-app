@@ -1,6 +1,6 @@
 {
   "name": "superCell",
-  "version": "1.0.8",
+  "version": "0.1.8",
   "description": "Build system for node, express and react apps",
   "main": "gulpfile.js",
   "scripts": {
