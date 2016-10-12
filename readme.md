@@ -7,9 +7,6 @@
   <img src="https://david-dm.org/joellongie/superCell/dev-status.svg" alt="dev deps status"/>
 </a>
 
-> IMPORTANT CHANGES, Aug 9, 2016     
-> This version of superCell will soon move from using Gulp to Webpack.  I will create a new repo for this Gulp version named 'superCellGulp2016' but most likely will only be updating it occasionally.  SuperCell was always intended to change with the times and for React apps webpack is a better solution.
-
 > CHANGELOG 1.0.8, May 18, 2016     
 > Added react-router, hashHistory on by default, can change to browserHistory. Reorganized components to reflect react-router structure.  Added a react-styled style-guide.
 
