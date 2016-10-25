@@ -125,7 +125,7 @@ class StyleGuide extends Component {
             <input type="date" name="date1" pattern="\d{4}-\d{2}-\d{2}" placeholder="YYY-MM-DD" title="YYY-MM-DD" /></p>
 
             <p><label htmlFor="color">Color</label><br />
-            <input type="color" name="color1" defaultValue="#336699" /></p>
+            <input type="color" name="color1" defaultValue="#2B5087" /></p>
 
             <p><label htmlFor="email">Email (multible coma seperate)</label><br />
             <input type="email" name="email1" /></p>
