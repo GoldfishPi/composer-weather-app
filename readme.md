@@ -1,4 +1,4 @@
-# SuperCell 0.1.8
+# SuperCell 0.1.8 (YouTube Build 2016)
 
 > CHANGELOG 1.0.8, May 18, 2016     
 > Added react-router, hashHistory on by default, can change to browserHistory. Reorganized components to reflect react-router structure.  Added a react-styled style-guide.
