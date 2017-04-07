@@ -1,12 +1,5 @@
 # SuperCell 0.1.8
 
-<a href="https://david-dm.org/joellongie/superCell">
-  <img src="https://david-dm.org/joellongie/superCell/status.svg" alt="deps status"/>
-</a>&nbsp;
-<a href="https://david-dm.org/joellongie/superCell#info=devDependencies">
-  <img src="https://david-dm.org/joellongie/superCell/dev-status.svg" alt="dev deps status"/>
-</a>
-
 > CHANGELOG 1.0.8, May 18, 2016     
 > Added react-router, hashHistory on by default, can change to browserHistory. Reorganized components to reflect react-router structure.  Added a react-styled style-guide.
 
