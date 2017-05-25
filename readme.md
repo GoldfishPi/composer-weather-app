@@ -24,23 +24,6 @@ This build system can be run in two modes: development and production.  Use deve
     npm run dev  (starts app in development mode)  
     npm run build (starts app in production mode)
 
-Window Users:
-
-    gulp (just use the gulp command, see below)
-
-## Window Users
-If you are running SuperCell on a window machine you may encouter two warnings:    
-
-- 'npm WARN optional Skipping failed optional dependency /chokidar/fsevents'
-- ''NODE_ENV' is not recognized as an internal or external command, operable program or batch file.'
-
-The first warning has to do with an optional mac only dependency used in some 3rd party packages.  The second is related to setting the node environment variable in Mac and Linux.  I am not a windows user so am currently looking to see if it is possible to conditional set the environment in windows.  If you know of a way please email me.  For now both warning can be ignored for windows users since they are only related to added functionality in mac/linux.
-
-
-## Important
-
-When using "npm start" you are running react in 'development mode'.  "npm run production" runs react in 'production mode' removing many of React 15.0+ warnings.  See this link for more info [http://facebook.github.io/react/downloads.html](http://facebook.github.io/react/downloads.html).
-
 
 ## Features
 
@@ -55,9 +38,6 @@ When using "npm start" you are running react in 'development mode'.  "npm run pr
 
 Precompiled JS and SCSS files are in the src folder and compile to public.  All other files including HTML, image etc. are in public.  BrowserSync runs from public and serves as the "Dist" folder for client-side apps.
 
-
-## To Do
-- more testing
 
 ## How to remove React
 If you would like to remove React from the build just follow the steps below.
