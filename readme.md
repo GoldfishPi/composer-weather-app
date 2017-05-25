@@ -8,7 +8,7 @@
 </a> 
 
 [![David](https://img.shields.io/joellongie/superCell/status.svg?style=flat-square)](https://github.com/joellongie/superCell)
-[![David](https://img.shields.io/david/dev/expressjs/express.svg?style=flat-square)](https://github.com/joellongie/superCell)
+[![David](https://img.shields.io/david/dev/expressjs/status.svg?style=flat-square)](https://github.com/joellongie/superCell)
 
 SuperCell Build 2016 is a simple boilerplate for Node, Gulp and ES6+ React apps. 
 
