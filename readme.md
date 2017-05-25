@@ -1,9 +1,24 @@
-# YouTube Build 2016 (SuperCell 0.1.8)
+# SuperCell 2.0.0 - Build 2016
 
-YouTube Build 2016, formally named SuperCell is a simple boilerplate for Node, Gulp and ES6+ React apps. 
+<a href="https://david-dm.org/joellongie/superCell">
+<img src="https://david-dm.org/joellongie/superCell/status.svg" alt="deps status"/>
+</a>&nbsp;
+<a href="https://david-dm.org/joellongie/superCell#info=devDependencies">
+<img src="https://david-dm.org/joellongie/superCell/dev-status.svg" alt="dev deps status"/>
+</a> 
+
+
+SuperCell Build 2016 is a simple boilerplate for Node, Gulp and ES6+ React apps. 
+
+## CHANGELOG
+ > v2.0.0, May 24, 2017     
+  > - Updated react-router to v4, hashHistory on by default.
+  > - Updated outdated packages to current versions.
+  > - Modified src folder and file structure.
 
 ## YouTube Demo
 [![SuperCell YouTube Demo](http://img.youtube.com/vi/BwzjYK1Hd0Y/0.jpg)](https://www.youtube.com/watch?v=BwzjYK1Hd0Y)
+
 
 ## Install Packages
 
@@ -32,3 +47,6 @@ This build system can be run in two modes: development and production.  Use deve
 ## How to use
 
 Precompiled JS and SCSS files are in the src folder and compile to public.  All other files including HTML, image etc. are in public.  BrowserSync runs from public and serves as the "Dist" folder for client-side apps.
+
+## To Do
+- add express server and gulp proxy to run react-router's BrowserRouter.

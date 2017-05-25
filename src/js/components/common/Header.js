@@ -26,7 +26,7 @@ export default class Header extends Component {
           <div className="card" style={style.card}>
             <header id="header">
               <div className="section-wrap">
-                <h1><Link to="./">Gulp Build 2016 <SuperCellIcon /></Link></h1>
+                <h1><Link to="./">SuperCell 2.0.0 <SuperCellIcon /> Build 2016</Link></h1>
                 <Nav />
               </div>
             </header>
