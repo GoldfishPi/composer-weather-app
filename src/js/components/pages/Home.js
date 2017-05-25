@@ -19,7 +19,6 @@ class Counter extends Component {
   }
 
   handleClick() {
-    console.log("your clicking me");
     this.setState({ count: this.state.count + 1 });
   }
 
