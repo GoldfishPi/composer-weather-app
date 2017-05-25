@@ -4,8 +4,6 @@
 [![David](https://david-dm.org/joellongie/supercell/dev-status.svg?style=flat-square)](https://david-dm.org/joellongie/supercell)
 
 
-[![David](https://img.shields.io/node/v/gh-badges.svg)](https://img.shields.io/node/v/gh-badges.svg)
-
 SuperCell Build 2016 is a simple boilerplate for Node, Gulp and ES6+ React apps. 
 
 ## CHANGELOG
