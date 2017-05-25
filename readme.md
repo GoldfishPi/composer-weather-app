@@ -16,7 +16,7 @@ SuperCell Build 2016 is a simple boilerplate for Node, Gulp and ES6+ React apps.
   > - Updated outdated packages to current versions.
   > - Modified src folder and file structure.
 
-## YouTube Demo
+## YouTube Demo 1.0.8
 [![SuperCell YouTube Demo](http://img.youtube.com/vi/BwzjYK1Hd0Y/0.jpg)](https://www.youtube.com/watch?v=BwzjYK1Hd0Y)
 
 
