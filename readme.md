@@ -21,7 +21,7 @@ The first time you run gulp the build may take a little longer as it compiles an
 ## Running App
 This build system can be run in two modes: development and production.  Use development when you are developing your app.  In this mode your JS will not be minified, React will include all its warnings and your CSS will contain sourcemaps to the original SCSS files.  When you are ready to deploy you can start the app in production mode which will turn off React warnings, uglify your JS, and turn off sourcemaps for both JS and CSS.
 
-    npm start  (starts app in development mode)  
+    npm run dev  (starts app in development mode)  
     npm run build (starts app in production mode)
 
 Window Users:
