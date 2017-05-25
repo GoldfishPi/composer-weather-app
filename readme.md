@@ -1,12 +1,5 @@
 # SuperCell 2.0.0 - Build 2016
 
-<a href="https://david-dm.org/joellongie/supercell">
-<img src="https://david-dm.org/joellongie/supercell/status.svg" alt="deps status"/>
-</a>&nbsp;
-<a href="https://david-dm.org/joellongie/supercell#info=devDependencies">
-<img src="https://david-dm.org/joellongie/supercell/dev-status.svg" alt="dev deps status"/>
-</a> 
-
 [![David](https://david-dm.org/joellongie/supercell/status.svg?style=flat-square)](https://david-dm.org/joellongie/supercell)
 [![David](https://david-dm.org/joellongie/supercell/dev-status.svg?style=flat-square)](https://david-dm.org/joellongie/supercell)
 
