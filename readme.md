@@ -50,3 +50,4 @@ Precompiled JS and SCSS files are in the src folder and compile to public.  All 
 
 ## To Do
 - add express server and gulp proxy to run react-router's BrowserRouter.
+- update layout to match dustDevil.
