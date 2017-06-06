@@ -4,8 +4,10 @@
   "description": "Build system for node, express and react apps",
   "main": "gulpfile.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development gulp",
-    "build": "cross-env NODE_ENV=production gulp"
+    "clean": "rimraf public/css public/js public/maps",
+    "dev": "npm run clean && cross-env NODE_ENV=development gulp",
+    "build": "npm run clean && cross-env NODE_ENV=production gulp",
+    "start": "node server/index.js"
   },
   "author": "Joel Longie",
   "repository": {
@@ -34,11 +36,13 @@
     "gulp-uglify": "3.0.0",
     "gulp-util": "^3.0.7",
     "lodash.assign": "^4.0.0",
+    "rimraf": "2.6.1",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.4.0"
   },
   "dependencies": {
+    "express": "4.15.3",
     "react": "15.5.4",
     "react-dom": "15.5.4",
     "react-router-dom": "4.1.1"

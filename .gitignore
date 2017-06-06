@@ -37,9 +37,11 @@ package-lock.json
 build/
 dist/
 maps/
-
-# Compiled Files #
-######################
-public/css/
 public/maps/
-public/js/
+
+# Builds #
+# Comment out the build folder below when uploading to heroku #
+######################
+
+#public/css/
+#public/js/

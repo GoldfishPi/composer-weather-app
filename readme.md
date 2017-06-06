@@ -27,9 +27,26 @@ The first time you run gulp the build may take a little longer as it compiles an
 ## Running App
 This build system can be run in two modes: development and production.  Use development when you are developing your app.  In this mode your JS will not be minified, React will include all its warnings and your CSS will contain sourcemaps to the original SCSS files.  When you are ready to deploy you can start the app in production mode which will turn off React warnings, uglify your JS, and turn off sourcemaps for both JS and CSS.
 
-    npm run dev  (starts app in development mode)  
-    npm run build (starts app in production mode)
+    npm run dev  (starts app in development mode) 
 
+
+## Building App and Deploy to Heroku
+Make sure you have a Heroku account and have heroku-cli installed.
+
+1. **IMPORTANT: COMMENT OUT:** in `.gitignore` comment out last two lines see below.  Heroku needs these build folders to run app.
+```
+# public/css/
+# public/js/
+```
+2. `npm run build` (creates app production mode ready for heroku or other cloud platform)
+3. `heroku create`
+4. `git push heroku master`
+5. `heroku open`
+6.  **IMPORTANT: UNCOMMENT:** in `.gitignore` uncomment out last two lines see below.
+```
+public/css/
+public/js/
+```
 
 ## Features
 
@@ -45,5 +62,4 @@ This build system can be run in two modes: development and production.  Use deve
 Precompiled JS and SCSS files are in the src folder and compile to public.  All other files including HTML, image etc. are in public.  BrowserSync runs from public and serves as the "Dist" folder for client-side apps.
 
 ## To Do
-- add express server and gulp proxy to run react-router's BrowserRouter.
 - update layout to match dustDevil.
