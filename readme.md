@@ -69,6 +69,3 @@ public/js/
 ## How to use
 
 Precompiled JS and SCSS files are in the src folder and compile to public.  All other files including HTML, image etc. are in public.  BrowserSync runs from public and serves as the "Dist" folder for client-side apps.
-
-## To Do
-- update layout to match dustDevil.
