@@ -149,9 +149,15 @@ class StyleGuide extends Component {
 
               <p>
                 <label htmlFor="radios">Radios</label><br />
-                <input type="radio" name="radio1" defaultValue="one" defaultChecked="checked" /><label>check one</label><br />
-                <input type="radio" name="radio1" defaultValue="two" /><label>check two</label><br />
-                <input type="radio" name="radio1" defaultValue="three" /><label>check three</label><br />
+                <input
+                  type="radio"
+                  name="radio1"
+                  defaultValue="one"
+                  defaultChecked="checked"
+                />
+                <label htmlFor="radios">check one</label><br />
+                <input type="radio" name="radio1" defaultValue="two" /><label htmlFor="radios">check two</label><br />
+                <input type="radio" name="radio1" defaultValue="three" /><label htmlFor="radios">check three</label><br />
               </p>
 
               <p>
@@ -174,7 +180,6 @@ class StyleGuide extends Component {
               <p>
                 <label htmlFor="select-list-multiple">Select List (multiple)</label><br />
                 <select name="select1" size="8" multiple>
-                  {/* <!--  width="100" style="width: 100px" (not html5) -->*/}
                   <optgroup label="Group 1">
                     <option defaultValue="option1">option1</option>
                     <option defaultValue="option2">option2</option>
@@ -188,32 +193,30 @@ class StyleGuide extends Component {
                 </select>
               </p>
               <input type="hidden" name="userid" defaultValue="12345" />
-              {/* <!-- hidden fields use JS to alter values -->*/}
               <input type="hidden" name="statement" defaultValue="Cool Moves" />
-              {/* <!-- hidden fields can use JS to alter values -->*/}
             </form>
             <hr />
 
 
             <h2>Buttons</h2>
-            <a className="button" href="#">Link</a>
+            <a className="button" href="">Link</a>
             <button className="button" type="submit">Button</button>
             <button disabled="disabled">Disabled Button</button>
             <input className="button" type="button" value="Input" />
             <input className="button" type="submit" value="Submit" />
-            <input type="image" className="img-button" src="http://placehold.it/100x34" name="submit1" value="Image Button" />
-            <p><a className="button expanded" href="#">.expanded</a></p>
+            <input type="image" className="img-button" alt="" src="http://placehold.it/100x34" name="submit1" value="Image Button" />
+            <p><a className="button expanded" href="">.expanded</a></p>
 
-            <a className="button success" href="#">.success</a>
-            <a className="button info" href="#">.info</a>
-            <a className="button warning" href="#">.warning</a>
-            <a className="button danger" href="#">.danger</a>
+            <a className="button success" href="">.success</a>
+            <a className="button info" href="">.info</a>
+            <a className="button warning" href="">.warning</a>
+            <a className="button danger" href="">.danger</a>
 
             <p>Button Group</p>
             <ul className="button-group">
-              <li><a href="#" className="button">Button 1</a></li>
-              <li><a href="#" className="button">Button 2</a></li>
-              <li><a href="#" className="button">Button 3</a></li>
+              <li><a href="" className="button">Button 1</a></li>
+              <li><a href="" className="button">Button 2</a></li>
+              <li><a href="" className="button">Button 3</a></li>
             </ul>
             <hr />
 
