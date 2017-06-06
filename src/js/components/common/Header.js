@@ -1,22 +1,22 @@
-import React, { Component } from "react";
-import { SuperCellIcon } from "../common/Icons";
-import Nav from "./Nav";
-import { Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { SuperCellIcon } from '../common/Icons';
+import Nav from './Nav';
+
 
 export default class Header extends Component {
   render() {
-
     const style = {
       card: {
-        width: "100%",
-        background: "#fff",
-        borderRadius: "5px",
-        WebkitBoxShadow: "0px 2px 2px rgba(0, 0, 0, 0.1)",
-        boxShadow: "0px 2px 2px rgba(0, 0, 0, 0.1)",
-        position: "relative",
-        padding: "30px 40px 30px 40px",
-        margin: "10px"
-      }
+        width: '100%',
+        background: '#fff',
+        borderRadius: '5px',
+        WebkitBoxShadow: '0px 2px 2px rgba(0, 0, 0, 0.1)',
+        boxShadow: '0px 2px 2px rgba(0, 0, 0, 0.1)',
+        position: 'relative',
+        padding: '30px 40px 30px 40px',
+        margin: '10px',
+      },
     };
 
     return (

@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
 class Button extends Component {
   render() {
@@ -37,15 +37,15 @@ export default class App extends Component {
   render() {
     const style = {
       card: {
-        width: "100%",
-        background: "#fff",
-        borderRadius: "5px",
-        WebkitBoxShadow: "0px 2px 2px rgba(0, 0, 0, 0.1)",
-        boxShadow: "0px 2px 2px rgba(0, 0, 0, 0.1)",
-        position: "relative",
-        padding: "30px 40px 30px 40px",
-        margin: "10px"
-      }
+        width: '100%',
+        background: '#fff',
+        borderRadius: '5px',
+        WebkitBoxShadow: '0px 2px 2px rgba(0, 0, 0, 0.1)',
+        boxShadow: '0px 2px 2px rgba(0, 0, 0, 0.1)',
+        position: 'relative',
+        padding: '30px 40px 30px 40px',
+        margin: '10px',
+      },
     };
     return (
       <section className="container">
@@ -57,8 +57,8 @@ export default class App extends Component {
             </p>
             <p>
               Check out the
-              {" "}
-              <NavLink to={"/style-guide"}><strong>StyleGuide</strong></NavLink>
+              {' '}
+              <NavLink to={'/style-guide'}><strong>StyleGuide</strong></NavLink>
             </p>
           </div>
 
@@ -66,7 +66,7 @@ export default class App extends Component {
             <p>
               Links that don't match up with a URL defined in the router
               will be handled by the noMatch component.<br />
-              <NavLink to={"/some-random-link"}>
+              <NavLink to={'/some-random-link'}>
                 <strong>Example not found link</strong>
               </NavLink>
             </p>

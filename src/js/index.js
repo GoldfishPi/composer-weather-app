@@ -1,13 +1,13 @@
+/* eslint-env browser */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
-// import '../scss/style.scss';
 import { HashRouter as Router } from 'react-router-dom';
+import App from './components/App';
 
 const render = (Component) => {
   ReactDOM.render(
     <Router>
-        <Component />
+      <Component />
     </Router>,
     document.getElementById('app'),
   );

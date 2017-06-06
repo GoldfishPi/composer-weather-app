@@ -6,7 +6,7 @@ import StyleGuide from './pages/StyleGuide';
 import NoMatch from './pages/NoMatch';
 
 const App = () => (
-  <div className='app-wrapper'>
+  <div className="app-wrapper">
     <Header />
     <Switch>
       <Route exact path="/" component={Home} />
