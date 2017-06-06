@@ -37,7 +37,7 @@ This build system can be run in two modes: development and production.  Use deve
 
 
 ## Building App and Deploy to Heroku
-Make sure you have a Heroku account and have heroku-cli installed.
+Make sure you have a Heroku account and heroku-cli installed.
 
 
 1. **IMPORTANT: COMMENT OUT:** in `.gitignore` comment out last two lines see below.  Heroku needs these build folders to run app.
