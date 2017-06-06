@@ -7,7 +7,7 @@ import { HashRouter as Router } from 'react-router-dom';
 const render = (Component) => {
   ReactDOM.render(
     <Router>
-        <App />
+        <Component />
     </Router>,
     document.getElementById('app'),
   );

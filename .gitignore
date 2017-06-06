@@ -33,6 +33,7 @@ node_modules/
 bower_components/
 .sass-cache
 *.css.map
+package-lock.json
 build/
 dist/
 maps/
