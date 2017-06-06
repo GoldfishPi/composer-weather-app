@@ -45,8 +45,8 @@ Make sure you have a Heroku account and have heroku-cli installed.
 # public/css/
 # public/js/
 ```
-2. Commit your project to git
-3. `npm run build` (creates app production mode ready for heroku or other cloud platform)
+2. `npm run build` (creates app production mode ready for heroku or other cloud platform)
+3. Commit your project to git locally.  This commit will be used for heroku.
 4. `heroku create`
 5. `git push heroku master`
 6. `heroku open`
@@ -55,7 +55,7 @@ Make sure you have a Heroku account and have heroku-cli installed.
 public/css/
 public/js/
 ```
-8. Commit your project back to git with the commented .gitignore
+8. Commit your project back to git with the commented .gitignore.  You can now recommit your project to your remote repo without unnecessary build files.
 
 ## Features
 
