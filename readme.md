@@ -11,7 +11,7 @@ SuperCell Build 2016 is a simple boilerplate for Node, Gulp and ES6+ React apps.
   > - Added Eslint
   > - Changed default router to BrowserHistory
   > - Added express server for deployment to Heroku
-  > - Added instruction for Heroku depolyment below.
+  > - [Added instruction for Heroku depolyment below](https://github.com/joellongie/superCell#building-app-and-deploy-to-heroku).
 
  > v2.0.0, May 24, 2017     
   > - Updated react-router to v4, hashHistory on by default.
