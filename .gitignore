@@ -43,5 +43,5 @@ public/maps/
 # Comment out the build folder below when uploading to heroku #
 ######################
 
-#public/css/
-#public/js/
+public/css/
+public/js/

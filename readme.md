@@ -33,20 +33,23 @@ This build system can be run in two modes: development and production.  Use deve
 ## Building App and Deploy to Heroku
 Make sure you have a Heroku account and have heroku-cli installed.
 
+
 1. **IMPORTANT: COMMENT OUT:** in `.gitignore` comment out last two lines see below.  Heroku needs these build folders to run app.
 ```
 # public/css/
 # public/js/
 ```
-2. `npm run build` (creates app production mode ready for heroku or other cloud platform)
-3. `heroku create`
-4. `git push heroku master`
-5. `heroku open`
-6.  **IMPORTANT: UNCOMMENT:** in `.gitignore` uncomment out last two lines see below.
+2. Commit your project to git
+3. `npm run build` (creates app production mode ready for heroku or other cloud platform)
+4. `heroku create`
+5. `git push heroku master`
+6. `heroku open`
+7.  **IMPORTANT: UNCOMMENT OUT:** in `.gitignore` uncomment out last two lines see below.
 ```
 public/css/
 public/js/
 ```
+8. Commit your project back to git with the commented .gitignore
 
 ## Features
 
