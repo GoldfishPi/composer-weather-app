@@ -1,4 +1,4 @@
-# SuperCell 2.1.0 - Build 2016
+# SuperCell 2.1.1 - Build 2016
 
 [![David](https://david-dm.org/joellongie/supercell/status.svg?style=flat-square)](https://david-dm.org/joellongie/supercell)
 [![David](https://david-dm.org/joellongie/supercell/dev-status.svg?style=flat-square)](https://david-dm.org/joellongie/supercell)
@@ -7,6 +7,9 @@
 SuperCell Build 2016 is a simple boilerplate for Node, Gulp and ES6+ React apps. 
 
 ## CHANGELOG
+ > v2.1.1, October 22, 2017     
+  > - updated outdated packages
+  
  > v2.1.0, June 5, 2017     
   > - Added Eslint
   > - Changed default router to BrowserHistory
