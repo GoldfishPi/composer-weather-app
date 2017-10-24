@@ -58,7 +58,7 @@ export default class App extends Component {
             <p>
               Check out the
               {' '}
-              <NavLink to={'/style-guide'}><strong>StyleGuide</strong></NavLink>
+              <NavLink to="/style-guide"><strong>StyleGuide</strong></NavLink>
             </p>
           </div>
 
@@ -66,7 +66,7 @@ export default class App extends Component {
             <p>
               Links that don't match up with a URL defined in the router
               will be handled by the noMatch component.<br />
-              <NavLink to={'/some-random-link'}>
+              <NavLink to="/some-random-link">
                 <strong>Example not found link</strong>
               </NavLink>
             </p>
