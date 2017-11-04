@@ -3,8 +3,7 @@
 [![David](https://david-dm.org/joellongie/supercell/status.svg?style=flat-square)](https://david-dm.org/joellongie/supercell)
 [![David](https://david-dm.org/joellongie/supercell/dev-status.svg?style=flat-square)](https://david-dm.org/joellongie/supercell)
 
-
-SuperCell Build 2016 is a simple boilerplate for Node, Gulp and ES6+ React apps. 
+SuperCell Build 2016 is a simple boilerplate for Node, React, React-Router, Redux, and Sass apps.  It features an easy to configure Gulp setup that is friendly to beginners while still offering advanced features such as browser-sync, babel ES6+ compiler, source maps, and optimized builds.
 
 ## CHANGELOG
  > v2.1.1, October 22, 2017     
