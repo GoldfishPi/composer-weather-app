@@ -44,3 +44,23 @@
 // Navigation
 // ***********************************
 @import "navigation";
+
+.week {
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-gap: 5px;
+}
+.weather-day {
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+h3 {
+    background-color: grey;
+}
+
+.TP {
+    display: grid;
+    grid-template-columns: auto auto;
+}
